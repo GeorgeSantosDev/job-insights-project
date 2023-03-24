@@ -8,28 +8,20 @@ def read(path: str) -> List[Dict]:
     try:
         with open(path, encoding='utf-8') as file:
             data = csv.DictReader(file, delimiter=",", quotechar='"')
-            jobs = [d for d in data]
+            jobs = [job for job in data]
     except FileNotFoundError:
         print('Arquivo não encontrado')
     return jobs
 
 
 def get_unique_job_types(path: str) -> List[str]:
-    """Checks all different job types and returns a list of them
+    data_list = read(path)
+    types = set()
 
-    Must call `read`
+    for data in data_list:
+        types.add(data['job_type'])
 
-    Parameters
-    ----------
-    path : str
-        Must be passed to `read`
-
-    Returns
-    -------
-    list
-        List of unique job types
-    """
-    raise NotImplementedError
+    return [type for type in types]
 
 
 def filter_by_job_type(jobs: List[Dict], job_type: str) -> List[Dict]:
