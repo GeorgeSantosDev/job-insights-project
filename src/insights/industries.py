@@ -17,4 +17,3 @@ def filter_by_industry(jobs: List[Dict], industry: str) -> List[Dict]:
     filtered_industry_list = [job for job in jobs if
                               job['industry'] == industry]
     return filtered_industry_list
-
