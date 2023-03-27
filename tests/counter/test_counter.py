@@ -8,7 +8,7 @@ def csv_content():
     return '''
     job_title,company,state,city, industry,rating, id
     developer, AB, MG, BH, Finance, 4.0, 0
-    developer, Ab, MG, BH, finance, 2.0, 1
+    developer, Ab, MG, BH, finance, 5.0, 1
     developer, ABD, MG, BH, Finance, 3.0, 2
     '''
 
