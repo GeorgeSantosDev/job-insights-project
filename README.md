@@ -1,52 +1,41 @@
-<h1>Job Insights</h1>
+# Job Insights
 
-<p>
-  Job Insights is a project that aims to provide analytics from a job dataset. The data was extracted from the Glassdoor website and obtained 
-  through Kaggle.The purpose of this project is to  work on initial concepts of the python language, creating functions, handling text files, 
-  testing with pytest and web implementation with flask.
+#### Job Insights is a project that aims to provide analytics from a job dataset. The data was extracted from the Glassdoor website and obtained through Kaggle.The purpose of this project is to  work on initial concepts of the python language, creating functions, handling text files, testing with pytest and web implementation with flask.
 
- </p>
+<br> <br>
 
-<h2> Built With </h2>
+# Built With
 
-<div>
- <a href="https://https://www.python.org/" rel="nofollow"> - Python </a> </br></br>
- <a href="https://flask.palletsprojects.com/en/2.2.x/" rel="nofollow"> - Flask </a> </br></br>
- <a href="https://docs.pytest.org/en/7.2.x/" rel="nofollow"> - Pytest </a> </br></br>
- <a href="https://flake8.pycqa.org/en/latest/" rel="nofollow"> - Flake8 </a> </br></br>
-</div>
+#### <a href="https://www.python.org/" rel="nofollow"> - Python </a>
+#### <a href="https://flask.palletsprojects.com/en/2.2.x/" rel="nofollow"> - Flask </a>
+#### <a href="https://docs.pytest.org/en/7.2.x/" rel="nofollow"> - Pytest </a> 
+#### <a href="https://flake8.pycqa.org/en/latest/" rel="nofollow"> - Flake8 </a> 
 
-<h2>
-  How try the application?
-</h2>
+<br>
 
-<p>
-  In your terminal: </br></br>
-   1. Run <code>git clone git@github.com:GeorgeSantosDev/job-insights-project.git</code> to clone the repository. </br>
-   2. Insides of job-insights-project folder run <code>python3 -m venv .venv</code> to create an environment. </br>
-   3. Run <code>source .venv/bin/activate</code> to activate the enviroment. </br>
-   4. Run <code>python3 -m pip install -r dev-requirements.txt</code> to install all dependencies.</br></br>
-   
-  For run the application: </br></br>
-    1. Run <code>flask run</code> in your terminal and access http://127.0.0.1:5000/. </br></br>
-    
-   Make sure that port 5000 is available </br></br>
-<br />
-<br />
+# How try the application?
 
-<h2>
-  How to run tests?
-</h2>
+### In your terminal:
+#### 1. Run <code>git clone git@github.com:GeorgeSantosDev/job-insights-project.git</code> to clone the repository.
+#### 2. Insides of inventory-report-project folder run <code>python3 -m venv .venv</code> to create a new environment.
+#### 3. Run <code>source .venv/bin/activate</code> to activate the enviroment.
+#### 4. Run <code>python3 -m pip install -r dev-requirements.txt</code> to install all dependencies.
+#### 5. Run <code>flask run</code> to start the application and access http://127.0.0.1:5000/.
 
-<p>
-   1. Run <code> python3 -m pytest </code>
-</p>
+<br>
 
-<br />
-<br />
-<br /> 
+##### Make sure that port 5000 is available
 
-<p> Any questions or suggestions? Contact me </p>
+<br> 
+
+#  How to run tests?
+
+#### 1. After install all dependencies run <code> python3 -m pytest </code>
+
+<br> <br> <br>
+
+
+### Any questions or suggestions? Contact me
 
 <a href="https://www.linkedin.com/in/george-santos-dev" rel="nofollow">
   <img
